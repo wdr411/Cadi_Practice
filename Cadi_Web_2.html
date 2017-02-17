@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title> CADI 웹 2 주차 미션 </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+
+	<body>
+		<center>
+			<br>
+			<font color="2DB400" size="40px"> NAVER </font>
+			<br><br>
+
+			<form action = "#"  accept-charset = "utf-8" name = "person_info" method = "get">
+
+				<fieldset style="width:460; height:125">
+					<input type = "text" name = "id" style="width:360; height:30" placeholder="아이디" required/>@naver.com <br><br>
+
+					<input type = "password" name = "password" style="width:450; height:30" placeholder="비밀번호" required/><br><br>
+
+					<input type = "password" name = "password check" style="width:450; height:30" placeholder="비밀번호 재확인" required/><br><br>
+				</fieldset>
+				<br>
+
+				<fieldset style="width:460; height:170">
+					<input type = "text" name = "name" style="width:450; height:30" placeholder="이름" required/><br><br>
+
+					남&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" name = "gender" required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					여&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" name = "gender"required/><br><br>
+
+					생일 <input type = "text" name = "year" style="width:135; height:30" placeholder="  년(4자)"
+						pattern = "\d{4}"
+						title = "태어난 년도 4자리를 정확하게 입력하세요." required/>
+
+					<select name="month" style="width:135; height:30" required/>
+						<option value="month">월</option>
+						<option value="1">1</option>
+               		 	<option value="2">2</option>
+                		<option value="3">3</option>
+                		<option value="4">4</option>
+                		<option value="5">5</option>
+                		<option value="6">6</option>
+                		<option value="7">7</option>
+                		<option value="8">8</option>
+                		<option value="9">9</option>
+                		<option value="10">10</option>
+                		<option value="11">11</option>
+                		<option value="12">12</option>
+					</select>
+
+					<select name="day" style="width:135; height:30" required/>
+						<option value="day">일</option>
+						<option value="1">1</option>
+               		 	<option value="2">2</option>
+                		<option value="3">3</option>
+                		<option value="4">4</option>
+                		<option value="5">5</option>
+                		<option value="6">6</option>
+                		<option value="7">7</option>
+                		<option value="8">8</option>
+                		<option value="9">9</option>
+                		<option value="10">10</option>
+                		<option value="11">11</option>
+                		<option value="12">12</option>
+                		<option value="13">13</option>
+                		<option value="14">14</option>
+                		<option value="15">15</option>
+                		<option value="16">16</option>
+                		<option value="17">17</option>
+                		<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select><br><br>
+
+					<input type = "text" name = "2nd_email" style="width:450; height:30" placeholder="본인확인 이메일(선택)" required/><br><br>
+
+				</fieldset>
+				<br>
+
+				<fieldset style="width:460; height:80;">
+
+					<select name="month" style="width:80; height:30" required/>
+						<option value="korean_num">+82</option>
+					</select>
+
+					<input type = "text" name = "phone_num" style="width:290; height:30" placeholder="휴대전화번호" required/>
+
+					<input type = "button" name = "confirm" style="width:70; height:30" value="인증"/><br><br>
+
+					<input type = "text" name = "confirmation_num" style="width:375; height:30" placeholder="인증번호" required/>
+
+					<input type = "button" name = "confirmation" style="width:70; height:30" value="확인"/>
+				</fieldset>
+				<br>
+
+				<input type = "submit" value = "가입하기" style="width:480; height:40"/>
+
+			</form>
+		</center>
+	</body>
+</html>
